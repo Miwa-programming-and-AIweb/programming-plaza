@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 入力してください。。記事タイトル -->
     <title>プライバシーポリシー</title>
+    <!-- 入力してください。。記事タイトル -->
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://kit.fontawesome.com/f4ecd71f58.js" crossorigin="anonymous"></script>
 </head>
@@ -14,77 +16,350 @@
 
 <body>
     <div class="header">
-        <div class="header-logo"><b>プログラミングひろば</b></div>
+        <div class="header-logo">プログラミングひろば</div>
         <div class="header-inquiry">
             <a href="https://twitter.com/Miwa_Programing" target="_blank" rel="noopener noreferrer">
-                ミワ_Miwa<img src="img/青い鳥.png" alt="Twitter">
+                <i class="fa-brands fa-twitter"></i>ミワ_Miwa
             </a>
         </div>
+
+        <div class="header-hamburger" id="header-hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </div>
+
+
+    <nav id="header-nav">
+        <div>ホーム</div>
+        <div>プロフィール</div>
+        <div>コード</div>
+        <div>ボルト君</div>
+        <div>こんにちは</div>
+        <div>ヘジアン</div>
+        <div>ヤコビアン</div>
+    </nav>
 
 
 
 
     <div class="main">
         <div class="leader">
+            <!-- 入力してください。。記事タイトル -->
             <h1>プライバシーポリシー</h1>
+            <!-- 入力してください。。記事タイトル -->
 
             <div class="leader-container">
-                <span>更新日 <i class="fa-regular fa-calendar-check"></i> <time id="modify"></time></span>
-                <img src="img/白い犬.png" alt="仮画像">
+                <span class="updated">更新日 <i class="fa-regular fa-calendar-check"></i> <time id="modify"></time></span>
+                <div class="img-out-container">
+                    <img src="/プログラミングひろば/img/仮画像.png">
+                </div>
+                <div class="class-of-article-top">
+                    <p><i class="fa-solid fa-tag"></i> 固定ページ</p></span>
+                </div>
+
+                <!-- 入力してください。。リード文 -->
+                <p>お手数ではありますが、下記プライバシーポリシーをご確認のうえで、本サイトをご利用ください。</p>
+                <!-- 入力してください。。リード文 -->
+
+                <details id="toc" open>
+                    <summary>目次を表示</summary>
+                </details>
+
+
+                <div class="share">
+                    <p>SNSへのシェア・フォローはこちら！</p>
+                    <div class="share-button">
+                        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                            data-size="large" data-show-count="false" data-lang="ja" data-related="Miwa_Web_and_AI"
+                            data-text="みんな見てみて！">Tweet</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <a href="http://www.facebook.com/share.php?u=【共有するURL】" class="facebook-share-button">
+                            <p>f</p>Facebook
+                        </a>
+                        <a href="https://social-plugins.line.me/lineit/share?url=【エンコードしたURL】"
+                            class="line-share-button">LINEで送る</a>
+                    </div>
+                </div>
+
             </div>
-
-            <p>お手数ではありますが、下記プライバシーポリシーをご確認のうえで、本サイトをご利用ください。</p>
-
-
-
-            <!-- 目次自動生成 -->
-            <details id="toc" open>
-                <summary>目次を表示</summary>
-            </details>
-
-
 
         </div>
 
 
+
+
+
+
+        <!-- 入力してください。。メインコンテンツ -->
         <div class="main-content">
             <h2>当サイトへのコメント・お問い合わせ</h2>
             <p>全てのコメントは管理人が事前にその内容を確認し、承認した上での掲載となります。あらかじめご了承下さい。</p>
             <p>加えて、次の各号に掲げる内容を含むコメントは管理人の裁量によって、承認せず削除する事があります。
-            <p>・特定の法人以外の個人または法人を誹謗し、中傷するもの。<br>
-                ・極度にわいせつな内容を含むもの。<br>
-                ・禁制品の取引に関するものや、他者を害する行為の依頼など、法律によって禁止されている物品、行為の依頼や斡旋などに関するもの。<br>
-                ・その他、公序良俗に反し、または管理人によって承認すべきでないと認められるもの。</p>
-            <p>ご意見やご要望はお問い合わせフォームにて承りますが、内容によっては返信致しません。予めご了承下さい。</p>
+                <p>・特定の法人以外の個人または法人を誹謗し、中傷するもの。<br>
+                    ・極度にわいせつな内容を含むもの。<br>
+                    ・禁制品の取引に関するものや、他者を害する行為の依頼など、法律によって禁止されている物品、行為の依頼や斡旋などに関するもの。<br>
+                    ・その他、公序良俗に反し、または管理人によって承認すべきでないと認められるもの。</p>
+                <p>ご意見やご要望はお問い合わせフォームにて承りますが、内容によっては返信致しません。予めご了承下さい。</p>
 
 
-            <h2>免責事項</h2>
-            <P>当サイトからリンクなどによって他のサイトに移動された場合、移動先サイトで提供される情報、サービス等について一切の責任を負いません。</P>
-            <P>当サイトのコンテンツ・情報は、運営者の経験やリサーチによる検証をもとにまとめたものであり、可能な限り正確な情報を掲載するよう努めております。しかし、誤情報が入り込んだり、情報が古くなったりしていることもございます。
-            </P>
-            <P>当サイトに掲載された内容によって生じた損害等の一切の責任を負いかねますのでご了承ください。</P>
-            <P>記事の内容は予告なく変更、または削除される場合がございますのでご注意下さい。</P>
-                <!-- <h3>arigatou</h3> -->
 
+                <h2>免責事項</h2>
+                <P>当サイトからリンクなどによって他のサイトに移動された場合、移動先サイトで提供される情報、サービス等について一切の責任を負いません。</P>
+                <P>当サイトのコンテンツ・情報は、運営者の経験やリサーチによる検証をもとにまとめたものであり、可能な限り正確な情報を掲載するよう努めております。しかし、誤情報が入り込んだり、情報が古くなったりしていることもございます。
+                </P>
+                <P>当サイトに掲載された内容によって生じた損害等の一切の責任を負いかねますのでご了承ください。</P>
+                <P>記事の内容は予告なく変更、または削除される場合がございますのでご注意下さい。</P>
+
+
+
+
+
+
+
+
+
+        </div>
+        <!-- 入力してください。。メインコンテンツ -->
+
+
+
+
+
+
+        <div class="class-of-article-bottom">
+            <p><i class="fa-solid fa-tag"></i> 固定ページ</p></span>
         </div>
 
 
-        <div class="footer">
-            <div class="footer-logo"><span>プログラミングひろば</span><br>© 2023 ミワ_Miwa</div>
-            <div class="footer-list">
-                <ul>
-                    <li><a href="">プライバシーポリシー</a></li>
-                    <li>|</li>
-                    <li><a href="">お問い合わせ</a></li>
-                    <li>|</li>
-                    <li><a href="">作者ミワについて</a></li>
-                </ul>
+
+        <div class="share-bottom">
+            <p>SNSへのシェア・フォローはこちら！</p>
+            <div class="share-button">
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
+                    data-show-count="false" data-lang="ja" data-related="Miwa_Web_and_AI" data-text="みんな見てみて！">Tweet</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="http://www.facebook.com/share.php?u=【共有するURL】" class="facebook-share-button">
+                    <p>f</p>Facebook
+                </a>
+                <a href="https://social-plugins.line.me/lineit/share?url=【エンコードしたURL】"
+                    class="line-share-button">LINEで送る</a>
             </div>
         </div>
 
 
-        <script src="script.js"></script>
+        <div class="related-articles">
+            <div class="h2-like-design-bottom">関連記事</div>
+
+            <div class="img-column-bottom">
+                <a href="" class="img-column-bottom-img">
+                    <img src="/プログラミングひろば/img/仮画像.png" alt="">
+                </a>
+                <a href="" class="img-column-bottom-title">
+                    対象記事のタイトルを表示します。対象記事のタイトルを表示します。
+                </a>
+                <div class="img-column-bottom-class"><a href=""><span><i class="fa-solid fa-tag"></i>クラス表示</span></a>
+                </div>
+            </div>
+
+            <div class="img-column-bottom">
+                <a href="" class="img-column-bottom-img">
+                    <img src="/プログラミングひろば/img/仮画像.png" alt="">
+                </a>
+                <a href="" class="img-column-bottom-title">
+                    対象記事のタイトルを表示します。対象記事のタイトルを表示します。
+                </a>
+                <div class="img-column-bottom-class"><a href=""><span><i class="fa-solid fa-tag"></i>クラス表示</span></a>
+                </div>
+            </div>
+
+            <div class="img-column-bottom">
+                <a href="" class="img-column-bottom-img">
+                    <img src="/プログラミングひろば/img/仮画像.png" alt="">
+                </a>
+                <a href="" class="img-column-bottom-title">
+                    対象記事のタイトルを表示します。対象記事のタイトルを表示します。
+                </a>
+                <div class="img-column-bottom-class"><a href=""><span><i class="fa-solid fa-tag"></i>クラス表示</span></a>
+                </div>
+            </div>
+
+            <div class="img-column-bottom">
+                <a href="" class="img-column-bottom-img">
+                    <img src="/プログラミングひろば/img/仮画像.png" alt="">
+                </a>
+                <a href="" class="img-column-bottom-title">
+                    対象記事のタイトルを表示します。対象記事のタイトルを表示します。
+                </a>
+                <div class="img-column-bottom-class"><a href=""><span><i class="fa-solid fa-tag"></i>クラス表示</span></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="most-viewed-articles">
+            <div class="h2-like-design-bottom">よく読まれている記事</div>
+
+            <div class="img-column-bottom">
+                <a href="" class="img-column-bottom-img">
+                    <img src="/プログラミングひろば/img/仮画像.png" alt="">
+                    <span class="most-viewed-number">1</span>
+                </a>
+                <a href="" class="img-column-bottom-title">
+                    対象記事のタイトルを表示します。対象記事のタイトルを表示します。
+                </a>
+                <div class="img-column-bottom-class"><a href=""><span><i class="fa-solid fa-tag"></i>クラス表示</span></a>
+                </div>
+            </div>
+
+            <div class="img-column-bottom">
+                <a href="" class="img-column-bottom-img">
+                    <img src="/プログラミングひろば/img/仮画像.png" alt="">
+                    <span class="most-viewed-number">2</span>
+                </a>
+                <a href="" class="img-column-bottom-title">
+                    対象記事のタイトルを表示します。対象記事のタイトルを表示します。
+                </a>
+                <div class="img-column-bottom-class"><a href=""><span><i class="fa-solid fa-tag"></i>クラス表示</span></a>
+                </div>
+            </div>
+
+            <div class="img-column-bottom">
+                <a href="" class="img-column-bottom-img">
+                    <img src="/プログラミングひろば/img/仮画像.png" alt="">
+                    <span class="most-viewed-number">3</span>
+                </a>
+                <a href="" class="img-column-bottom-title">
+                    対象記事のタイトルを表示します。対象記事のタイトルを表示します。
+                </a>
+                <div class="img-column-bottom-class"><a href=""><span><i class="fa-solid fa-tag"></i>クラス表示</span></a>
+                </div>
+            </div>
+
+            <div class="img-column-bottom">
+                <a href="" class="img-column-bottom-img">
+                    <img src="/プログラミングひろば/img/仮画像.png" alt="">
+                    <span class="most-viewed-number">4</span>
+                </a>
+                <a href="" class="img-column-bottom-title">
+                    対象記事のタイトルを表示します。対象記事のタイトルを表示します。
+                </a>
+                <div class="img-column-bottom-class"><a href=""><span><i class="fa-solid fa-tag"></i>クラス表示</span></a>
+                </div>
+            </div>
+
+            <div class="img-column-bottom">
+                <a href="" class="img-column-bottom-img">
+                    <img src="/プログラミングひろば/img/仮画像.png" alt="">
+                    <span class="most-viewed-number">5</span>
+                </a>
+                <a href="" class="img-column-bottom-title">
+                    対象記事のタイトルを表示します。対象記事のタイトルを表示します。
+                </a>
+                <div class="img-column-bottom-class"><a href=""><span><i class="fa-solid fa-tag"></i>クラス表示</span></a>
+                </div>
+            </div>
+
+            <div class="img-column-bottom">
+                <a href="" class="img-column-bottom-img">
+                    <img src="/プログラミングひろば/img/仮画像.png" alt="">
+                    <span class="most-viewed-number">6</span>
+                </a>
+                <a href="" class="img-column-bottom-title">
+                    対象記事のタイトルを表示します。対象記事のタイトルを表示します。
+                </a>
+                <div class="img-column-bottom-class"><a href=""><span><i class="fa-solid fa-tag"></i>クラス表示</span></a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="partition"></div>
+
+
+        <div class="short-profile">
+            <div class="short-profile-img">
+                <img src="/プログラミングひろば/img/白い犬.png">
+            </div>
+
+            <div class="short-profile-name">ミワ_Miwa</div>
+
+            <div class="short-profile-text">
+                完全初心者な大学生が100日でどこまでプログラミングをできるようになるか検証。目標はWeb制作で稼ぐこと。プログラミング勉強中の方、一緒に頑張りましょう!</div>
+
+            <a href="">プロフィール詳細></a>
+        </div>
+
+
+        <div class="partition"></div>
+
+
+        <div class="search-field" id="search-field">
+            <input type="text" placeholder="サイト内を検索" name="search-field" id="search-field">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+
+
+        <div class="partition"></div>
+
+
+        <div class="thank-you-btn">
+            <button id="thank-you-btn">Click me</button>
+        </div>
+
+
+        <div class="partition"></div>
+
+
+        <div class="in-comments">
+            <span class="in-comments-head">この記事へのコメント</span>
+
+            <div class="in-comments-single">
+                <div class="in-comments-img-container">
+                    <img src="/プログラミングひろば/img/白い犬.png">
+                    <span>2023/1/10</span>
+                </div>
+                <div class="in-comments-text">
+                    <span>白い犬さん</span>
+                    <div class="in-comments-text-comments">
+                        コメはコメントですコメはコメントですコメはコメントですコメはコメントですコメはコメントですコメはコメントですコメはコメントですコメはコメントですコメはコメントです</div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <a href="#toc" class="to-page-top">
+        <i class="fa-solid fa-sort-up"></i>
+    </a>
+
+
+    <div class="footer">
+        <div class="footer-logo"><span>プログラミングひろば</span><br>© 2023 ミワ_Miwa</div>
+        <div class="footer-list">
+            <ul>
+                <li><a href="">プライバシーポリシー</a></li>
+                <li>|</li>
+                <li><a href="">お問い合わせ</a></li>
+                <li>|</li>
+                <li><a href="">ミワについて</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
