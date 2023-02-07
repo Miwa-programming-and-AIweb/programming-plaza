@@ -322,6 +322,10 @@ img{
     /* font-weight: bold; */
     /* opacity: 0.9; */
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 110%;
 }
 .img-column-bottom-title{
     margin: 10px 30px ;
@@ -439,7 +443,10 @@ img{
 
 
 
-
+.in-comments{
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+}
 .in-comments-head{
     display: flex;
     justify-content: center;
@@ -473,6 +480,7 @@ img{
 
 .in-comments-text{
     margin-left: 10px;
+    margin-bottom: 16px;
 }
 .in-comments-text span{
     border-left: 3px solid #306fc1;
@@ -658,10 +666,16 @@ FontAwesomeで表示されない奴が多かったので妥協。
 }
 
 
-
 @media screen and (min-width:700px) {
     .img-column-bottom-title{
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .main{
+        margin-left: 32px;
+        margin-right: 32px;
     }
 }
