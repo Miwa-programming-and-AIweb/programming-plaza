@@ -1,3 +1,7 @@
+/* 内部リンクのaタグには全て、
+target="_blank" rel="noopener noreferrer"
+を追加すること。 */
+
 @charset "utf-8";
 
 * {
@@ -228,6 +232,10 @@ img{
 }
 .img-out-container{
     max-width: 100%;
+}
+.leader-container .img-out-container{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -650,3 +658,10 @@ FontAwesomeで表示されない奴が多かったので妥協。
 }
 
 
+
+@media screen and (min-width:700px) {
+    .img-column-bottom-title{
+        display: flex;
+        justify-content: center;
+    }
+}
