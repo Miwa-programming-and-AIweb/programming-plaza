@@ -681,9 +681,10 @@ FontAwesomeで表示されない奴が多かったので妥協。
 /* thank you btn */
 #thank-you-container{
    display: flex;
-   justify-content: flex-end;
-   align-items: baseline;
+   justify-content: center;
+
    gap: 0 10px;
+   mrgin-right:8px;
 }
 #thank-you-finger{
    font-size: 35px;
