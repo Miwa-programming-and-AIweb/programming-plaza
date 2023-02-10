@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@font-face{
+    font-family: "GreatVibes";
+    src: url("GreatVibes-Regular.ttf") format("truetype");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -361,17 +366,15 @@ img{
 .short-profile-img{
     height: 100px;
     width: 100px;
-    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
 
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-.short-profile-img img{
-    max-width: 100%;
+    background: url(/プログラミングひろば/img/short-profile.jpg)  center #306fc1;
     vertical-align: bottom;
-
     border: 2px solid black;
-    border-radius: 100%;
+    border-radius: 50%;
+    /* object-fit: cover; */
+    /* background-position: center; */
 }
 .short-profile-name{
     font-size: 20px;
@@ -680,78 +683,78 @@ FontAwesomeで表示されない奴が多かったので妥協。
 
 /* thank you btn */
 #thank-you-container{
-   display: flex;
-   justify-content: center;
-   align-items:baseline;
-   gap: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 0 10px;
 }
 #thank-you-finger{
-   font-size: 35px;
+    font-size: 35px;
 }
 #thank-you-btn{
-   all: unset;
-   width: 262px;
-   height: 36px;
-   border-radius: 8px;
-   color: rgb(255, 255, 255);
-   font-size: 20px;
-   font-weight: bold;
-   letter-spacing: 0.02em;
-   background-color: rgb(0, 0, 0);
-   border: none;
-   border-bottom: 4px solid rgb(0, 0, 0);
-
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-right: 6%;
-   margin-top: 40px;
-   margin-bottom: 8px;
+    all: unset;
+    width: 262px;
+    height: 36px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 4px solid rgb(0, 0, 0);
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    margin-top: 120px;
+    margin-bottom: 8px;
 }
 #thank-you-btn:hover{
-   animation: thank-you-btn-hover 2s 1 forwards;
+    animation: thank-you-btn-hover 2s 1 forwards;
 }
 @keyframes thank-you-btn-hover{
-   100%{background-color: rgb(44, 235, 184);}
+    100%{background-color: rgb(44, 235, 184);}
 }
 #thank-you-btn:active{
-   transform: translateY(4px);
-   border: none;
+    transform: translateY(4px);
+    border: none;
 }
-
+ 
 .thank-you-for-seeing{
-   z-index: 5;
-   position: fixed;
-   top: 20%;
-   width: 100%;
-   height: 300px;
-   background-color: rgba(44, 235, 184, 0.821);
-   display: flex;
-   align-items: center;
-   animation: thank-you-btn-active 5s 1 forwards;
-
-   color: rgb(255, 255, 255);
-   font-size: 450%;
-   font-family: "GreatVibes";
-   padding-left: 5%;
+    z-index: 5;
+    position: fixed;
+    top: 20%;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(44, 235, 184, 0.821);
+    display: flex;
+    align-items: center;
+    animation: thank-you-btn-active 5s 1 forwards;
+ 
+    color: rgb(255, 255, 255);
+    font-size: 450%;
+    font-family: "GreatVibes";
+    margin-left: -12px;
+    padding-left: 12px;
 }
 #thank-you-for-seeing{
-   opacity: 0;
+    opacity: 0;
 }
-
+ 
 @keyframes thank-you-btn-active{
-   0%{
-      opacity: 0;
-   }
-   50%{
-      opacity: 1;
-   }
-   70%{
-      opacity: 1;
-   }
-   100%{
-      opacity: 0;
-      pointer-events: none;
-   }
+    0%{
+       opacity: 0;
+    }
+    50%{
+       opacity: 1;
+    }
+    80%{
+       opacity: 1;
+    }
+    100%{
+       opacity: 0;
+       pointer-events: none;
+    }
 }
-
