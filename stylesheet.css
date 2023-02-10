@@ -682,9 +682,8 @@ FontAwesomeで表示されない奴が多かったので妥協。
 #thank-you-container{
    display: flex;
    justify-content: center;
-
+   align-items:baseline;
    gap: 0 10px;
-   mrgin-right:8px;
 }
 #thank-you-finger{
    font-size: 35px;
@@ -705,8 +704,8 @@ FontAwesomeで表示されない奴が多かったので妥協。
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-right: 2%;
-   margin-top: 120px;
+   margin-right: 6%;
+   margin-top: 40px;
    margin-bottom: 8px;
 }
 #thank-you-btn:hover{
