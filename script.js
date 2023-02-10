@@ -9,7 +9,7 @@ target.textContent = year + '年' + month + '月' + date + `日`;
 
 
 
-// 目次自動生成。
+// 目次自動生成
 document.addEventListener('DOMContentLoaded', () => {
     const heads = document.querySelectorAll('h2, h3');
     if (heads && heads.length) {
@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('#toc').innerHTML += `<ul>${contents}</ul>`;
     }
 });
+
 
 
 //ハンバーガーメニューの開閉
