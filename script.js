@@ -9,7 +9,7 @@ target.textContent = year + '年' + month + '月' + date + `日`;
 
 
 
-// 目次自動生成--JavaScriptを学んだら、htmlとcssとコレを変えて、<i class="fa-solid fa-circle-chevron-right"></i>を使う。
+// 目次自動生成。
 document.addEventListener('DOMContentLoaded', () => {
     const heads = document.querySelectorAll('h2, h3');
     if (heads && heads.length) {
@@ -32,14 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-// 本ページのURLを取得
-let thisPageURL = location.href;
-console.log(thisPageURL);
-
-
-
-
 //ハンバーガーメニューの開閉
 var headerNav = document.getElementById("header-nav");
 var clickNumber = 0
@@ -56,4 +48,14 @@ document.getElementById("header-hamburger").onclick = function () {
     } else {
         headerNav.style.cssText = "opacity:0;";
     }
+}
+
+
+//thank you btn
+const thankYouForSeeing=document.getElementById("thank-you-for-seeing");
+const thankYouForSeeingText=document.getElementById("thank-you-for-seeing-text");
+
+document.getElementById("thank-you-btn").onclick=function(){
+   thankYouForSeeing.classList.add("thank-you-for-seeing");
+   thankYouForSeeingText.classList.add("thank-you-for-seeing-text");
 }
