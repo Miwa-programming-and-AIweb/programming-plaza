@@ -425,23 +425,6 @@ img{
 
 
 
-.thank-you-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-}
-#thank-you-btn{
-    height: 30%;
-    width: 40%;
-    background-color: #306fc1;
-    border-radius: 30px;
-    color: azure;
-    font-size: 140%;
-}
-
-
-
 .in-comments{
     margin-bottom: 48px;
     padding-bottom: 24px;
@@ -684,7 +667,7 @@ FontAwesomeで表示されない奴が多かったので妥協。
 /* thank you btn */
 #thank-you-container{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: baseline;
     gap: 0 10px;
 }
@@ -707,8 +690,8 @@ FontAwesomeで表示されない奴が多かったので妥協。
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 2%;
-    margin-top: 120px;
+    margin-right: 6%;
+    margin-top: 40px;
     margin-bottom: 8px;
 }
 #thank-you-btn:hover{
