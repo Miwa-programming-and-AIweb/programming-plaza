@@ -125,7 +125,7 @@
     background-color: black;
     color: azure;
 
-    height: 112px;
+    height: 116px;
     /* width: 120%; */
     
 }
@@ -144,7 +144,8 @@
 }
 
 .footer-list{
-    margin-bottom: 2px;
+    padding-bottom: 6px;
+    
 }
 
 .footer-list ul {
