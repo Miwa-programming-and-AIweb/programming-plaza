@@ -8,8 +8,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Century Gothic",sans-serif;
-;
 }
 
 
@@ -73,9 +71,6 @@
 }
 
 
-
-
-
 .header-hamburger{
     color: azure;
     position: fixed;
@@ -111,10 +106,6 @@
 #header-nav div{
     margin-bottom: 8px;
 }
-
-
-
-
 /* header */
 
 
@@ -124,10 +115,12 @@
 .footer {
     background-color: black;
     color: azure;
-
-    height: 116px;
-    /* width: 120%; */
-    
+    height: 130px;
+}
+@media screen and (min-with:599px) {
+    .footer{
+        height: 120px;
+    }    
 }
 
 .footer-logo {
@@ -145,7 +138,6 @@
 
 .footer-list{
     padding-bottom: 6px;
-    
 }
 
 .footer-list ul {
@@ -372,7 +364,7 @@ img{
     margin-top: 40px;
     margin-bottom: 30px;
 
-    background: url(/programming-plaza/img/short-profile.jpg)  center #306fc1;
+    background: url(/プログラミングひろば/img/short-profile.jpg)  center #306fc1;
     vertical-align: bottom;
     border: 2px solid black;
     border-radius: 50%;
